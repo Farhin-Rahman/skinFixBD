@@ -1493,3 +1493,35 @@ h4 {
 .media-thumb:after {
   transition: opacity 0.3s ease;
 }
+/* EMSculpt Section */
+.emsculpt-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f9f7ff 0%, #ede4ff 100%);
+  border-radius: 20px;
+  margin: 60px 0;
+}
+
+.emsculpt-section .section-title {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #5e2b97;
+  margin-bottom: 20px;
+}
+
+.emsculpt-section .emsculpt-desc {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.emsculpt-section .emsculpt-img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+
+.emsculpt-section .emsculpt-img:hover {
+  transform: scale(1.05);
+}
